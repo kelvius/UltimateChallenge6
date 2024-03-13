@@ -1,0 +1,10 @@
+ <div class="customer-card">
+  <%= image_tag customer.image.url, class: "customer-image" %>
+  <div class="customer-details">
+    <h2><%= customer.full_name %></h2>
+    <p><strong>Email:</strong> <%= customer.email %></p>
+    <p><strong>Phone Number:</strong> <%= customer.phone_number %></p>
+    <p><strong>Notes:</strong> <%= customer.notes %></p>
+    <!-- Add any other customer information you want to display -->
+  </div>
+</div>
